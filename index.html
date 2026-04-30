@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <header class="bg-primary text-white p-3 d-flex justify-content-between align-items-center">
+
+    <div class="d-flex align-items-center gap-2">
+        <img src="imagenes/logo.jfif" alt="Logo" width="40" height="40">
+        <h1 class="h4 mb-0">Contacto Social</h1>
+    </div>
+
+    <div class="d-flex align-items-center gap-3">
+        <span id="bienvenida"></span>
+        <button id="cerrarSesion" class="btn btn-light btn-sm">Cerrar sesión</button>
+    </div>
+</header>
+    <main class="container mt-4">
+        <section class="card p-3 mb-4">
+            <textarea name="publicaciones" id="nuevaPublicacion" placeholder="Que estas pensando"></textarea>
+            <button type="button" id="publicar" class="btn btn-outline-primary">Publicar</button>
+
+        </section>
+        <section>
+            <div id="feed"></div>
+
+        </section>
+    </main>
+    <footer>
+        <p>Esta es la página de inicio de contacto social, aquí podrás encontrar toda la información sobre nuestros
+            servicios y cómo contactarnos.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+body {
+    background: #f5f6f8;
+}
+
+textarea {
+    resize: none;
+}
+
+.card {
+    border-radius: 12px;
+}
