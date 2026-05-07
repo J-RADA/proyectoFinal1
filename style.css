@@ -1,11 +1,29 @@
 body {
-    background: #f5f6f8;
+    background-color: #dee1e4; /* Un gris muy clarito */
+    border-top: 5px solid #c1cfe4; /* Una línea azul de Bootstrap arriba */
 }
 
 textarea {
     resize: none;
 }
-
+#loginForm {
+    border: none;
+    border-radius: 15px; /* Bordes más redondeados */
+    padding: 2rem !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important; /* Sombra más suave y profunda */
+}
+main {
+    margin: auto;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.foto {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+}
 .card {
     border-radius: 12px;
 }
@@ -13,4 +31,15 @@ textarea {
   field-sizing: content;
   min-height: 100px; /* Un tamaño base inicial */
   max-height: 300px; /* Para que no crezca infinitamente */
+}
+p{
+    font-size: 0.7rem;
+    text-align: center;
+    color: rgb(49, 77, 102);
+}
+.footer {
+  font-size: 0.8rem;
+  padding: 5px;
+  background-color: #f1f1f1; /* opcional: color de fondo */
+  text-align: center;
 }
