@@ -1,16 +1,17 @@
 body {
-    background-color: #dee1e4; /* Un gris muy clarito */
-    border-top: 5px solid #c1cfe4; /* Una línea azul de Bootstrap arriba */
+    background-color: #bfdad163; /* Un gris muy clarito */
+    
 }
 
 textarea {
     resize: none;
 }
 #loginForm {
+    background: rgba(128, 181, 216, 0.5); /* blanco con 80% opacidad */
     border: none;
     border-radius: 15px; /* Bordes más redondeados */
     padding: 2rem !important;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important; /* Sombra más suave y profunda */
+    box-shadow: 0 10px 25px #ccb2b200 !important; /* Sombra más suave y profunda */
 }
 main {
     margin: auto;
@@ -42,4 +43,18 @@ p{
   padding: 5px;
   background-color: #f1f1f1; /* opcional: color de fondo */
   text-align: center;
+}
+.contactoSLogin {
+    text-align: center;
+    align-items:normal ;
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenedorLogin {
+    margin:auto ;
+    background-image:url("imagenes/goku-friends.jpg");
+    background-size: cover;
+    height: 100vh; /* Para que ocupe toda la altura de la ventana */
 }

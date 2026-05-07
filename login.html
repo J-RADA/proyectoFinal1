@@ -10,25 +10,28 @@
 </head>
 
 <body>
-    <main class="container d-flex justify-content-center align-items-center min-vh-100">
-    <form id="loginForm" class="card p-4 shadow-sm" style="width: 100%; max-width: 400px;">
-            <div class="mb-3">
-                <h3 class="text-center mb-4">Iniciar sesión</h3>
-                <label for="correo" class="form-label">Ingresa tu Email</label>
-               <input type="email" class="form-control form-control-lg" id="correo" required>
-                <div id="emailHelp" class="form-text">Tus datos no serán compartidos con nadie más.</div>
-            </div>
-            <div class="mb-3">
-                <label for="contrasena" class="form-label">Ingresa tu Contraseña </label>
-                <input type="password" class="form-control form-control-lg" id="contrasena" required>
-            </div>
+    <div class="contenedorLogin">
+        <h2 class="contactoSLogin">Contacto Social</h2>
+        <main class="container d-flex justify-content-center align-items-center min-vh-100">
+            <form id="loginForm" class="card p-4 shadow-sm" style="width: 100%; max-width: 400px;">
+                <div class="mb-3">
+                    <h3 class="text-center mb-4">Iniciar sesión</h3>
+                    <label for="correo" class="form-label">Ingresa tu Email</label>
+                    <input type="email" class="form-control form-control-lg" id="correo" required>
+                    <div id="emailHelp" class="form-text">Tus datos no serán compartidos con nadie más.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="contrasena" class="form-label">Ingresa tu Contraseña </label>
+                    <input type="password" class="form-control form-control-lg" id="contrasena" required>
+                </div>
 
-            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-        </form>
-    </main>
+                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            </form>
+        </main>
+    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="js/auth.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script src="js/auth.js"></script>
 </body>
 
 </html>
