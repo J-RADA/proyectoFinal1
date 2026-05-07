@@ -7,7 +7,7 @@ textarea {
     resize: none;
 }
 #loginForm {
-    background: rgba(128, 181, 216, 0.5); /* blanco con 80% opacidad */
+    background: rgba(128, 181, 216, 0.9); /* blanco con 80% opacidad */
     border: none;
     border-radius: 15px; /* Bordes más redondeados */
     padding: 2rem !important;
@@ -32,10 +32,17 @@ textarea {
   field-sizing: content;
   min-height: 100px; /* Un tamaño base inicial */
   max-height: 300px; /* Para que no crezca infinitamente */
+  
+}
+.muro{
+    background: rgba(255, 255, 255, 0.8); /* blanco con 80% opacidad */
+    border: none;
+    border-radius: 15px; /* Bordes más redondeados */
+    padding: 2rem !important;
 }
 p{
     font-size: 0.7rem;
-    text-align: center;
+    text-align: justify;
     color: rgb(49, 77, 102);
 }
 .footer {
@@ -54,7 +61,27 @@ p{
 }
 .contenedorLogin {
     margin:auto ;
-    background-image:url("imagenes/goku-friends.jpg");
+    background-image:url("imagenes/nepec.jpg");
+    height: 100vh; /* Para que ocupe toda la altura de la ventana */
+    width: 100%;
     background-size: cover;
     height: 100vh; /* Para que ocupe toda la altura de la ventana */
+}
+.contenedorIndex{
+    background-image:url("imagenes/lufy.webp");
+    background-size: cover;
+    height: 100vh;
+}
+.nameRd {
+    text-align: center;
+    background-color: rgba(6, 92, 223, 0.63);
+    color: rgba(240, 242, 243, 0.973);
+    font-size: 32px;
+    
+    border-radius: 2%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
