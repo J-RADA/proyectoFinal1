@@ -9,3 +9,8 @@ textarea {
 .card {
     border-radius: 12px;
 }
+textarea {
+  field-sizing: content;
+  min-height: 100px; /* Un tamaño base inicial */
+  max-height: 300px; /* Para que no crezca infinitamente */
+}
